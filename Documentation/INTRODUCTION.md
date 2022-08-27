@@ -20,6 +20,7 @@ This form will help student to complaint to warden. It will have option to selec
 Also this form will be integrated with google-sheet so that Warden can look into it.
 #### - Adminstration page
 Page will inclued all adminstration information for example contacts of each employee, and Warden and Caretaker information.
+#### - Rules-Regulations for Students & Forms
 #### - Contact Us page and Facilities page
 This page will incldes all contact options.
  - Phone 
@@ -27,9 +28,11 @@ This page will incldes all contact options.
  - Location
 
 Also all the facilities provided by the hostel will be there on this page as well.
+ - Students room accessories 
  - TV room
  - TT room
  - Dance Room
+ - Reading Room
  - Music Room
  - Guest Room
  - Wi-Fi Facility
