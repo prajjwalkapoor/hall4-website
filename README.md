@@ -19,4 +19,5 @@ This website will include a Home page, a Complaint form to submit hostel related
 ## Contributing
 This project is using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) standard. Please follow the steps in [CONTRIBUTING.md](./Documentation/CONTRIBUTING.md) to ensure your commit messages are standardized
 
+
 ---
