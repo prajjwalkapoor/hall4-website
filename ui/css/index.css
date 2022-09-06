@@ -1,0 +1,94 @@
+/* ----------------------------------------- HERO SECTION ------------------------------------------ */
+
+#hero-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hostel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#hero section:first-child {
+    width: 50vw;
+    height: 82.5vh;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-inline: 1rem;
+    gap: 4.5rem;
+    padding-block: 5rem;
+}
+
+#hero section:first-child div {
+    color: #fff;
+    font-size: 4.5rem;
+    cursor: default;
+    line-height: 4.2rem;
+}
+
+#hero section:first-child button {
+    cursor: pointer;
+    background: #FFCD4D;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+#hero #expTxt {
+    position: relative;
+    display: inline-block;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+#expTxt:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1rem;
+    transition: 0.5s;
+}
+
+#hero section:first-child button:hover #expTxt {
+    opacity: 1;
+    padding-right: 1rem;
+    scale: 1.05;
+}
+
+#hero section:first-child button:hover #expTxt:after {
+    opacity: 1;
+    right: 0;
+}
+
+#hero section:last-child {
+    width: 40vw;
+    height: 82.5vh;
+    background: transparent;
+}
+
+#about {
+    width: 100%;
+    height: 100%;
+}
