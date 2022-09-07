@@ -1,0 +1,67 @@
+#facilities .text-container {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+#facilities .text-container h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(2rem, 12vw, 4rem);
+    color: #132529;
+    margin: 1rem 0;
+}
+
+#facilities .main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#facilities .main .main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    filter: drop-shadow(0px 40px 100px rgba(0, 0, 0, 0.2));
+}
+
+
+#facilities .main .facility-img {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+#facilities .main h3 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#facilities .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#facilities .button-container button {
+    width: 20%;
+    min-width: 14rem;
+    background: transparent;
+    color: #FF8B14;
+    border: 2px solid #FF8B14;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+#facilities .button-container button:hover {
+    background-color: #FF8B14;
+    cursor: pointer;
+}
