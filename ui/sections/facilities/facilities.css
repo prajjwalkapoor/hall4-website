@@ -63,5 +63,6 @@
 
 #facilities .button-container button:hover {
     background-color: #FF8B14;
+    color: #fff;
     cursor: pointer;
 }
