@@ -1,1 +1,120 @@
 /* Only for about sections */
+.about{
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background: #FFF5EB; 
+  padding: 40px;
+}
+.aboutPage_image {
+  padding-bottom: 50px;
+}
+@media (max-width: 800px){
+  .about{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding:55px;
+    margin-left: -100px;  
+  }
+  .aboutPage_text{
+    position: absolute;
+    top: 650px;
+    width: 450px;
+    padding: 1rem;
+    left: 0.5rem;
+  }
+  .aboutPage_text>p{
+    width: 100%;
+    margin-right: 15px;
+  }
+  .aboutPage_image{
+    position: absolute;
+    top: 60px;
+    padding-bottom: 2rem;
+    margin-top: 60px;
+  }
+  .aboutPage_text>h1{
+    position: absolute;
+    width: 100%;
+    left: -0.5rem;
+    top: -680px;
+    padding: 0.3rem;
+  }
+}
+.square_element_2{
+  position: absolute;
+  width: 123.58px;
+  height: 125px;
+  background-color: #ffffff;
+  top: 450px;
+  left: 430px;
+  border-radius: 10px;
+  box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.1);
+  }
+  #bullets{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+  }
+.aboutPage_text>h1{
+  color: #132529;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 50px;
+}
+.aboutPage_text>h3{
+  color:#414141;
+  font-size: 30px;
+  font-weight: 550;
+  line-height: 50px;
+  padding: 5px 0 5px 0;
+}
+.aboutPage_text>p{
+margin-right: 90px;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #414141;
+}
+.image{
+position: absolute;
+top: 220px;
+left: 80px;
+width: 410px;
+height: 238.55px;
+border-radius: 2rem;
+background-color: #ffffff;
+z-index: 1;
+}
+.image>img{
+width: 100%;
+background-color: #ffffff;
+box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.2);
+padding: 1rem;
+border-radius: 1rem;
+}
+.square_element_1 {
+position: absolute;
+top: 65px;
+left: 140px;
+width: 123.58px;
+height: 120.45px;
+background: #FFCD4D;
+box-shadow: 0px 40px 80px rgba(255, 139, 20, 0.63);
+border-radius: 10px;
+}
+.bg_circle {
+  margin-top: 90px;
+  margin-left: 60px;
+  height: 415px;
+  width: 415px;
+  border-radius: 100%;
+  background: rgba(255, 205, 77, 0.27);
+}
+.aboutPage_text {
+  margin-right: 2rem;
+  margin-top: 80px;
+  margin-left: 8rem;  
+}
