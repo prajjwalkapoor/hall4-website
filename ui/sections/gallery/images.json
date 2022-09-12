@@ -1,0 +1,13 @@
+{ "images" : [
+    {
+      "date" : "15 August 2022",
+      "category": "event-photos",
+      "image_link": "./gallery/1.png"
+    },
+    {
+      "date" : "09 Sept 2022",
+      "category": "hostel-images",
+      "image_link": "/assets/gallery/hostel-front-gate.png"
+    }
+]
+}
