@@ -1,1 +1,54 @@
 /* Only for footer sections */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #353535;
+}
+.footer{
+    margin: 12%;
+}
+h1{
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forms{
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+}
+.forms > h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.forms-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 16vw;
+}
+.forms-list > li{
+    list-style: none;
+    margin-bottom: 1rem;
+    padding-bottom: 10PX;
+}   
+.forms-list > li > a{
+    color: gray;
+    text-decoration: none;
+}
+
+.forms-list > li > a:hover{
+    color: lightgray;
+}
