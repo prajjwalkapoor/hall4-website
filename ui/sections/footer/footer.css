@@ -1,54 +1,119 @@
 /* Only for footer sections */
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
+
+#footer {
     background: #353535;
+    position: absolute;
+    width: 100%;
 }
-.footer{
-    margin: 12%;
+
+#footer .footer {
+    margin: 6% 12%;
 }
-h1{
+
+#footer h1 {
     color: #fff;
     font-size: 2.25rem;
     font-weight: 500;
     margin-bottom: 4rem;
 }
-.footer .container{
+
+#footer .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.forms{
+#footer .footer-items {
     display: flex;
-    height: 40vh;
+    justify-content: center;
+    min-width: 10rem;
+    padding-right: 6rem;
     flex-direction: column;
 }
-.forms > h2{
+
+#footer .footer-items>h2 {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 2rem;
 }
-.forms-list{
+
+#footer .footer-items-list {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 16vw;
+    width: 10rem;
 }
-.forms-list > li{
+
+#footer .footer-items-list>li {
     list-style: none;
     margin-bottom: 1rem;
-    padding-bottom: 10PX;
-}   
-.forms-list > li > a{
+    padding-bottom: 10px;
+}
+
+#footer .footer-items-list>li>a {
     color: gray;
     text-decoration: none;
 }
 
-.forms-list > li > a:hover{
+#footer .footer-items-list>li>a:hover {
     color: lightgray;
+}
+
+#footer #map {
+    width: 15rem;
+}
+
+#footer .address {
+    width: 17rem;
+}
+
+@media (max-width: 767px) {
+
+    #footer body {
+        font-size: 1.5rem;
+    }
+
+    #footer h1 {
+        font-size: 3rem;
+    }
+
+    #footer h2 {
+        font-size: 2.5rem;
+    }
+
+    #footer .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+
+    #footer .footer-items-list {
+        width: 20rem;
+    }
+
+    #footer .footer-items {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-width: 10rem;
+        margin-bottom: 20px;
+    }
+
+    #footer .footer-items>h2 {
+        margin-bottom: 2rem;
+    }
+
+    #footer #map {
+        width: 15rem;
+    }
+
+    #footer .address {
+        width: 17rem;
+    }
+
 }
